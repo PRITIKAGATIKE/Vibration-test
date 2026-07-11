@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    background:black;
+    overflow:hidden;
+}
+
+#guitar{
+    position:relative;
+    width:100vw;
+    height:100vh;
+}
+
+#bg{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.string{
+    position:absolute;
+
+    left:0;
+    width:100%;
+    height:40px;
+
+    transform-origin:center center;
+}
+
+/* STRING POSITIONS */
+
+#highE{
+    top:22%;
+}
+
+#B{
+    top:32%;
+}
+
+#G{
+    top:42%;
+}
+
+#D{
+    top:52%;
+}
+
+#A{
+    top:62%;
+}
+
+#lowE{
+    top:72%;
+}
